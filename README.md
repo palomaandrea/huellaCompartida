@@ -5,12 +5,10 @@ Contexto de negocio:
 
 ---
 
-Integrantes:
--Hans Ramirez
--Genesis Cortez
--Paloma Contreras
-
 Proyecto de estudiantes de segundo año de Ingeniería Informática DuocUC.
+Integrantes: Hans Ramirez, Genesis Cortez y Paloma Contreras.
+Asignatura: Programación Web PGY3121-012V
+Profesor: Giovanni Valdivia
 
 ---
 
