@@ -6,7 +6,7 @@ Contexto de negocio:
 ---
 
 Integrantes:
--Hans
+-Hans Ramirez
 -Genesis Cortez
 -Paloma Contreras
 
