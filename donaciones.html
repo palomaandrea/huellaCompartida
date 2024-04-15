@@ -61,9 +61,92 @@
                         <button class="btn btn-outline-success" type="submit">Buscar</button>
                     </form>
                 </div>
-                <img scr="img/Fundacion1.jpg" whidth="300" />
             </div>
         </nav>
+
+    </section>
+
+    <section class=""container mt-5>
+        <h2 class="text-center mb-4">Donaciones</h2>
+        <div class="row">
+            <!-- Imagen 1 -->
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="img/Fundacion1.jpg" class="card-img-top" alt="Donación 1" onclick="mostrarDescripcion('desc1')">
+                    <div class="card-body">
+                        <h5 class="card-title">Fudación Mis Peluditos</h5>
+                        <div id="desc1" class="descripcion">
+                            <p>Nuestro trabajo fundamentalmente está en terreno;</p> 
+                            <p>en las calles de la capital y rincones de las comunas</p>
+                            <p>que hace años vemos y monitoreamos, sin embargo, las manos</p>
+                            <p> se hacen pocas y lamentablemente quedan much@s en el camino sin ayuda.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Imagen 2 -->
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="img/Fundacion2.jpg" class="card-img-top" alt="Donación 2" onclick="mostrarDescripcion('desc2')">
+                    <div class="card-body">
+                        <h5 class="card-title">Fundación Ojitos</h5>
+                        <div id="desc2" class="descripcion">
+                            <p>Aquí encontrarás variadas formas de ser parte</p>
+                            <p>de este proyecto y darle ESPERANZA a much@s animalit@s</p>
+                            <p>en peligro y sin hogar.</p> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Imagen 3 -->
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="img/Fundacion3.jpg" class="card-img-top" alt="Donación 3" onclick="mostrarDescripcion('desc3')">
+                    <div class="card-body">
+                        <h5 class="card-title">Fundación Callejeros</h5>
+                        <div id="desc3" class="descripcion">
+                            <p>Estamos mentalizad@s y trabajamos a diario, no sólo en salvar vidas de mascotas,</p>
+                            <p>sino que en educar, informar, contagiar y concientizar a la población para que </p>
+                            <p>en un futuro próximo todos puedan realizar la labor que hoy en día desarrollan </p>
+                            <p>un@s poc@s y para ello, dependemos de ti.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Imagen 4 -->
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="img/Fundacion4.jpg" class="card-img-top" alt="Donación 4" onclick="mostrarDescripcion('desc4')">
+                    <div class="card-body">
+                        <h5 class="card-title">Fundación Ladridos</h5>
+                        <div id="desc4" class="descripcion">
+                            <p>Queríamos darle una ESPERANZA concreta de</p>
+                            <p> salvación, rehabilitación y protección</p>
+                            <p>indefinida. Derribamos barreras burocráticas</p>
+                            <p> y sociales logrando formar esta ONG que comenzó</p>
+                            <p> apadrinando una agrupación comunal de la comuna </p>
+                            <p>de Cerro Navia</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function mostrarDescripcion(id) {
+            var descripcion = document.getElementById(id);
+            if (descripcion.style.display === "none") {
+                descripcion.style.display = "block";
+            } else {
+                descripcion.style.display = "none";
+            }
+        }
+    </script>
+
         <!--fin navbar-->
 </body>
 </html>
