@@ -1,3 +1,12 @@
+.imagen-header-container{
+    width: 100%;
+   
+}
+.imagen-seccion-header img {
+    width: 100%;
+    height: auto;
+}
+
 .imagen-seccion {
     width: 100%;
 }
@@ -6,40 +15,81 @@
     width: 100%;
     height: auto;
 }
+
 .fondo-seccion {
     width: 100%;
-    background-color: rgb(5, 74, 10);
+    background-color: #ffcc00; /* Amarillo brillante */
+    margin: 0;
 }
-.container-text{
+
+.container-text {
     padding-top: 50px;
     padding-bottom: 100px;
     margin-left: 20%;
     margin-right: 20%;
-    
-}
-.h1-personalizado {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    color: #ffffff;
-    font-size: xx-large;
-    margin-bottom: 20px;
 }
 
+/* Estilos para el título h1 */
+.h1-personalizado {
+    font-family: 'Roboto', sans-serif; /* Utiliza la fuente Roboto o una alternativa sans-serif */
+    text-align: center; /* Alinea el texto al centro */
+    color: #000000; /* Color del texto oscuro */
+    font-size: 36px; /* Tamaño del texto grande */
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+/* Estilos para el párrafo p */
 .parrafo-personalizado {
-    color: #ffffff;
-    font-size: large;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: italic;
-    text-align: justify;
+    color: #240254; /* Color del texto oscuro */
+    font-size: 18px; /* Tamaño del texto moderado */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Utiliza una fuente sans-serif */
+    font-style: italic; /* Estilo cursiva */
+    text-align: justify; /* Alineación justificada */
 }
-.form-section{
+
+
+.form-section {
+    width: 100%; 
+    background-color: #299baa; 
+    margin: 0 auto; /* Centrar la sección del formulario */
+}
+
+.container-form {
     width: 100%;
-    background-color: rgb(91, 110, 3);
-}
-.container-form{
-    padding-left: 20%;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 50px;
-    padding-right: 20%;
-    padding-top: 100px;
-   
+    padding-bottom: 50px;
+    margin: 0 auto;
+
+    /* Estilos adicionales para todos los elementos del formulario */
+    form * {
+        width: 100%; /* Los elementos ocupan todo el ancho del contenedor */
+        margin-bottom: 10px; /* Añade un margen inferior entre cada elemento */
+    }
 }
+.imagen-container {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0 auto; 
+}
+/* Estilos personalizados para el botón del formulario */
+button[type="reset"] {
+    background-color: #ffcc00; /* Color de fondo */
+    color: #333333; /* Color del texto */
+    border: none; /* Eliminar borde */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño del texto */
+    cursor: pointer; /* Cambiar el cursor al pasar por encima */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+}
+
+button[type="reset"]:hover {
+    background-color: #f9c509; /* Cambiar color de fondo al pasar el cursor */
+    color: #ffffff; /* Cambiar color del texto al pasar el cursor */
+}
+
