@@ -1,0 +1,45 @@
+.imagen-seccion {
+    width: 100%;
+}
+
+.imagen-container img {
+    width: 100%;
+    height: auto;
+}
+.fondo-seccion {
+    width: 100%;
+    background-color: rgb(5, 74, 10);
+}
+.container-text{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+.h1-personalizado {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #ffffff;
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+
+.parrafo-personalizado {
+    color: #ffffff;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    text-align: justify;
+}
+.form-section{
+    width: 100%;
+    background-color: rgb(91, 110, 3);
+}
+.container-form{
+    padding-left: 20%;
+    padding-top: 50px;
+    padding-right: 20%;
+    padding-top: 100px;
+   
+}
